@@ -1,4 +1,4 @@
-# Data-Structures-Algorithms
+# Data-Structures-Algorithms (Hacktoberfest 2018)
 
 ![alt-text](https://assets.digitalocean.com/ghost/2018/09/Hacktoberfest_2018_twitter_facebook1_2134x1068.png)
 
