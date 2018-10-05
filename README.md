@@ -32,4 +32,4 @@ As a part of Hacktoberfest 2018, you have a chance to contribute to this reposit
 3. Languages accepted: C, C++, Java, Python, Rust (wish to code in another language? Update the README!)
 4. Language folder and file names should be lowercase.
 5. Documented code is preferred.
-
+6. Only 1 Data Structure/Algorithm per issue/pull request
