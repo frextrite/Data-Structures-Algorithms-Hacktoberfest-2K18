@@ -15,7 +15,7 @@ As a part of Hacktoberfest 2018, you have a chance to contribute to this reposit
 
 ## Steps for contributing
 1. Fork the repository
-2. Clone the forked repository ```git clone https://github.com/<username>/Data-Structures.git```
+2. Clone the forked repository ```git clone https://github.com/<username>/Data-Structures-Algorithms.git```
 3. Create a new branch for working ```git branch branch_name``` and switch to the branch ```git checkout branch_name```
 4. Code!
 5. Save your changes ```git add .```
