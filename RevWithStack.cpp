@@ -74,9 +74,6 @@ void reverse(char* str, int len){
 		str[k] = c;
 		k++;
 	}
-/*	for(int i = 0; i < len; i++){
-		str[i] = S.pop();
-	}*/
 }
  
 int main(){
@@ -84,7 +81,6 @@ int main(){
 	name = new char[50];
 	cin >> name;
 	int len = strlen(name);
-	//struct Stack S;
 	reverse(name, len);
 	cout << name;
 	return 0;
