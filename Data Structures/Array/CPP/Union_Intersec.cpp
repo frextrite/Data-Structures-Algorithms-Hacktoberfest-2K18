@@ -26,26 +26,6 @@ void bubbleSort(int arr[], int size){
 	}
 }
 
-void unionn(int arr1[50], int arr2[], int size1, int size2){
-	int arr[50], k = 0;
-	for(int i = 0; i < size1; i++){
-		arr[k] = arr1[i];
-		k++;
-		for (int j = 0; j < size2; ++j){
-			if(arr1[i] != arr2[j]){
-				arr[k] = arr2[j];
-				k++;
-			}
-			else{
-				j++;
-			}
-		}
-	}
-	int n = k;
-	printarr(arr, n);
-}
-
-
 //WILL WORK WHEN ARRAY DOES NOT HAVE DUPLICATE ELEMENTS
 void unionNew(int arr1[50], int arr2[], int size1, int size2){
 	int arr[50], k = 0;
@@ -79,25 +59,6 @@ void unionNew(int arr1[50], int arr2[], int size1, int size2){
 	}
 	
 	printarr(arr, k);
-}
-
-void intersection(int arr1[], int arr2[], int size1, int size2){
-	int arr[50], k = 0;
-	for(int i = 0; i < size1; i++){
-		for (int j = 0; j < size2; ++j){
-			if(arr1[i] == arr2[j]){
-				arr[k] = arr1[i];
-				k++;
-			}
-		}
-	}
-	if(k == 0){
-		cout << "nothing common";
-	}
-	else{
-		int n = k;
-		printarr(arr, n);
-	}
 }
 
 void intersection_new(int arr1[], int arr2[], int size1, int size2) {
