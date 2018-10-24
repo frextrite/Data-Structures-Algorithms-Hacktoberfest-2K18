@@ -2,6 +2,7 @@
 #include <cstring>
 using namespace std;
 
+//Function to Subtract word from given string (if it exist in string)
 void rem_word(char str[100], char word[50], int *n)
 {
 	int len = strlen(word);
