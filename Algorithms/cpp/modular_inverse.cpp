@@ -2,6 +2,7 @@
 #include <iostream>
 using namespace std;
 
+//Calculating gcd(a,b)
 int gcd(int a, int b)
 {
     if(b == 0)
@@ -15,7 +16,7 @@ int gcd(int a, int b)
     return gcd(b, a % b);
 }
 
-///Extended Euclidean algorithm helps computing x and y for equation of the type: Ax + By = GCD(A, B)
+///Extended Euclidean algorithm helps in computing x and y for equation of the type: Ax + By = GCD(A, B)
 int x, y, g;
 pair <int, int> extendedEuclidean(int a, int b)
 {
@@ -39,7 +40,7 @@ int modularInverse(int a, int m)
 {
     if(gcd(a, m) != 1)
     {
-        cout << "does no exist." << endl;
+        cout << "does not exist." << endl;
     }
     return (extendedEuclidean(a, m).first + m) % m;
 }
