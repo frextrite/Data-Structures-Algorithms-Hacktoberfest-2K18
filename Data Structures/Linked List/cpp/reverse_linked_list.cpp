@@ -31,6 +31,7 @@ void takeInput(node* &head){
 	}
 }
 
+//Print the linked list
 void print(node *head){
 	while(head!=NULL){
 		cout<<head->data<<" ";
@@ -39,6 +40,7 @@ void print(node *head){
 	cout<<endl;
 }
 
+//function to reverse the linked list
 void reverse(node* &head){
 
 	if(head==NULL||head->next==NULL)
