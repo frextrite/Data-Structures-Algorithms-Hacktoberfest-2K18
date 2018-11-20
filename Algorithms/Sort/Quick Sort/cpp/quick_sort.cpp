@@ -5,12 +5,11 @@ using namespace std;
 
 int QuickSortHelper(vector<int>& a, int s, int e) {
     int pivot = a[e];
-    int i = s-1;
-    int j = e-1;
+    int i = s;
+    int j = e;
     while(i < j) {
-        while(i < j && a[i+1] < pivot) i++;
-        i++;
-        while(j > i && a[j] > pivot) j--;
+        while(i < j && a[i] < pivot) i++;
+        while(j > i && a[j] >= pivot) j--;
         swap(a[i], a[j]);
     }
     swap(a[j], a[e]);
